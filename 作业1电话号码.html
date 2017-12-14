@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			function checkPhone(str) {
+				var a = /^0\d{2,3}-?\d{7,8}$/;
+				if(a.test(str)){
+					alert("正确");
+				} else {
+					alert("错误");
+				}
+			}
+			checkPhone("055-55777798");
+
+		var regTel = 
+			/^0(1(\d{1,2})|2(\d{1,2})|3(\d{1,2}))-?\d{7,8}$/;
+
+			console.log(regTel.test("050-5577777"));
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>
